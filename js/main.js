@@ -1,8 +1,21 @@
-const bgm = new Audio('/media/bgm/おもちゃのダンス.mp3');
-    bgm.volume = 0.2;
-    bgm.loop = true;
+let day = new Date().getDay();
+let targetName;
 
-const Logo = $('#Logo');
+if (day == 1)
+{
+    
+    targetName = 'Monologu'
+}
+else
+{
+    targetName = 'おもちゃのダンス'
+}
+
+let bgm = new Audio(`/media/bgm/${targetName}.mp3`);
+bgm.volume = 0.2;
+bgm.loop = true;
+
+let Logo = $('#Logo');
 
 function PlayBGM() {
     Logo.removeClass('pointer');
@@ -11,7 +24,7 @@ function PlayBGM() {
     Logo.tooltip({
         container: '#Logo',
         placement: 'right',
-        title: 'Playing おもちゃのダンス',
+        title: `Playing ${targetName}`,
         trigger: 'manual'
     });
     setTimeout(function() {
