@@ -2,18 +2,13 @@ let day = new Date().getDay();
 let targetName;
 
 if (day == 1)
-{
-    
-    targetName = 'Monologu'
-}
+{   targetName = 'Monologu'   }
 else
-{
-    targetName = 'おもちゃのダンス'
-}
+{   targetName = 'おもちゃのダンス'   }
 
 let bgm = new Audio(`/media/bgm/${targetName}.mp3`);
-bgm.volume = 0.2;
-bgm.loop = true;
+    bgm.volume = 0.2;
+    bgm.loop = true;
 
 let Logo = $('#Logo');
 
