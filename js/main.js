@@ -2,7 +2,7 @@ let day = new Date().getDay();
 let targetName;
 
 if (day == 1)
-{   targetName = 'Monologu'   }
+{   targetName = 'Monologue'   }
 else
 {   targetName = 'おもちゃのダンス'   }
 
