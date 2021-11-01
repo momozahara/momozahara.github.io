@@ -1,16 +1,16 @@
 let day = new Date().getDay();
-let targetName;
+let targetName, tagetVolume = 0.2;
 
 if (day == 0)
-{   targetName = 'Prologue'   }
+{   targetName = 'Prologue';   }
 else if (day == 1)
-{   targetName = 'main actor'   }
+{   targetName = 'main actor'; tagetVolume = 0.1;   }
 else if (day == 2)
-{   targetName = 'Monologue'   }
+{   targetName = 'Monologue';   }
 else if (day == 3)
-{   targetName = 'Lilac'   }
+{   targetName = 'Lilac';   }
 else
-{   targetName = 'おもちゃのダンス'   }
+{   targetName = 'おもちゃのダンス';   }
 
 let bgm = new Audio(`/media/bgm/${targetName}.mp3`);
     bgm.volume = 0.2;
