@@ -1,10 +1,14 @@
 let day = new Date().getDay();
 let targetName;
 
-if (day == 1)
+if (day == 0)
 {   targetName = 'Prologue'   }
-else if (day == 0)
+else if (day == 1)
+{   targetName = 'main actor'   }
+else if (day == 2)
 {   targetName = 'Monologue'   }
+else if (day == 3)
+{   targetName = 'Lilac'   }
 else
 {   targetName = 'おもちゃのダンス'   }
 
