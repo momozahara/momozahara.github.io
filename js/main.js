@@ -2,6 +2,8 @@ let day = new Date().getDay();
 let targetName;
 
 if (day == 1)
+{   targetName = 'Prologue'   }
+else if (day == 0)
 {   targetName = 'Monologue'   }
 else
 {   targetName = 'おもちゃのダンス'   }
