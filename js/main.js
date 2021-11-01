@@ -1,4 +1,6 @@
 let day = new Date().getDay();
+console.log(day)
+
 let targetName, tagetVolume = 0.2;
 
 if (day == 0)
