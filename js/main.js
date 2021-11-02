@@ -11,6 +11,8 @@ else if (day == 2)
 {   targetName = 'Monologue';   }
 else if (day == 3)
 {   targetName = 'Lilac';   }
+else if (day == 4)
+{   targetName = 'Little Cry of The Abyss'; targetVolume = 0.1;   }
 else
 {   targetName = 'おもちゃのダンス';   }
 
