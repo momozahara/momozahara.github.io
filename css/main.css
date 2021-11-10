@@ -8,6 +8,20 @@ body {
   min-height: 100vh
 }
 
+a.m {
+  transition: 0.3s ease-in-out;
+  opacity: .2;
+  color: #000;
+  text-decoration: none;
+}
+
+a.m:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+  color: #000;
+  text-decoration: none;
+}
+
 .MC {
   font-family: MC !important;
 }
