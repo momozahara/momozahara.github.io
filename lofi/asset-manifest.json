@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lofi/static/css/main.c9dbb8d0.css",
+    "main.css": "/lofi/static/css/main.8569229d.css",
     "main.js": "/lofi/static/js/main.41283951.js",
     "index.html": "/lofi/index.html",
-    "main.c9dbb8d0.css.map": "/lofi/static/css/main.c9dbb8d0.css.map",
+    "main.8569229d.css.map": "/lofi/static/css/main.8569229d.css.map",
     "main.41283951.js.map": "/lofi/static/js/main.41283951.js.map"
   },
   "entrypoints": [
-    "lofi/static/css/main.c9dbb8d0.css",
+    "lofi/static/css/main.8569229d.css",
     "lofi/static/js/main.41283951.js"
   ]
 }
