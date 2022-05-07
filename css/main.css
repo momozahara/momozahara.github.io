@@ -47,3 +47,24 @@ a.m:hover {
 .pointer:hover {
   cursor: pointer;
 }
+
+.card-body {
+	padding: 1rem 1rem 0 1rem;
+}
+
+.card-header {
+	padding: 1rem 1rem 0 1rem;
+}
+
+.card-title {
+	margin: 0;
+}
+
+#card-root {
+	transition: opacity 0.3s ease-in-out;
+	opacity: 1;
+}
+
+#card-root.hidden {
+	opacity: 0;
+}
