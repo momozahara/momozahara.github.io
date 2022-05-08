@@ -60,6 +60,17 @@ a.m:hover {
 	margin: 0;
 }
 
+.card-body-title {
+	display: inline;
+}
+
+.card-body-title-time {
+	display: inline;
+	float: right;
+	padding-top: 1rem;
+	opacity: 0.2;
+}
+
 #card-root {
 	transition: opacity 0.3s ease-in-out;
 	opacity: 1;
