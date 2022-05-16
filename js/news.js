@@ -43,7 +43,7 @@ window.onload = function () {
 	}
 	
 	const xhr = new XMLHttpRequest();
-	xhr.open('GET', 'https://akf4ic1lg8.execute-api.ap-southeast-1.amazonaws.com/dev/feed/');
+	xhr.open('GET', 'https://api.pcode.dev/feed/');
 	xhr.onerror = function () {
 		createCard('There is no news.', 'Server down i guess?');
 		card_root.classList.remove('hidden');
